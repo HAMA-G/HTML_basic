@@ -15,5 +15,7 @@ color: dimgray;
 }
 
 header {
-	background-color: white;
+	background-color: #fff;
+	padding: 20px;
+	/* margin: 40px; */
 }
