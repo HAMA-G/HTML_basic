@@ -1,4 +1,5 @@
 /* UA CSS 標準CSSを打ち消すもの reset.css, Normalize.css */
+/* CSSをリセットする */
 @import  url('normalize.css');
 
 h1 {
