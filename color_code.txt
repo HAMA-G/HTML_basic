@@ -1,0 +1,8 @@
+CSS を使った HTML の要素への色の適用
+https://developer.mozilla.org/ja/docs/Web/CSS/Guides/Colors/Applying_color
+
+named colornに関するMDNのリファレンス
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/named-color
+
+colorデータ型
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/color_value
