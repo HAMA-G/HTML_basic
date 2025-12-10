@@ -48,6 +48,11 @@ header, main, footer {
 	font-size: .8em;
 }
 
+/* 詳細度：h3が後にあっても詳細度からclass属性にcardが指定されているh3タグについては.card h3が優先される */
 .card h3 {
 	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 5em;
 }
