@@ -1,7 +1,13 @@
+/* UA CSS 標準CSSを打ち消すもの reset.css, Normalize.css */
+
 h1 {
 text-align: center;
 font-size: 1.5em;
 }
 p {
 color: dimgray;
+}
+
+header {
+	background-color: red;
 }
