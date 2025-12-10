@@ -2,6 +2,10 @@
 /* CSSをリセットする */
 @import  url('normalize.css');
 
+body {
+	/* カラーコード 3桁から8桁で記述される */
+	background-color: #eee;
+}
 h1 {
 text-align: center;
 font-size: 1.5em;
@@ -11,5 +15,5 @@ color: dimgray;
 }
 
 header {
-	background-color: red;
+	background-color: white;
 }
