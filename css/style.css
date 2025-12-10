@@ -47,3 +47,7 @@ header, main, footer {
 .text-small {
 	font-size: .8em;
 }
+
+.card h3 {
+	font-size: 1.2em;
+}
