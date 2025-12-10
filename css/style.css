@@ -39,3 +39,11 @@ header, main, footer {
 	margin-bottom: 10px;
 	border-radius: 10px;
 }
+
+.center {
+	text-align: center;
+}
+
+.text-small {
+	font-size: .8em;
+}
