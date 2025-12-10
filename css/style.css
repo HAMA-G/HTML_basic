@@ -16,6 +16,15 @@ color: dimgray;
 
 header {
 	background-color: #fff;
-	padding: 20px;
+	/* ショートハンド:時計回り（上　右　下　左） */
+	/* padding:30px 40px 50px 60px; */
+	/* ショートハンド：3つ指定の範囲上　左右　下 */
+	/* padding: 30px 40px 50px; */
+	/* ショートハンド：2つ指定の範囲上下　左右 */
+	padding: 20px 30px; 
+	/* padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 20px; */
 	/* margin: 40px; */
 }
