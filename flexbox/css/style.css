@@ -1,5 +1,11 @@
-li {
-	/* display: block; */
-	display: inline;
+@import url('destyle.css');
+
+.menu {
+	display: flex;
+	gap: 10px;
+}
+
+.menu li {
 	border: 1px solid #ccc;
+	padding-right: 10px;
 }
