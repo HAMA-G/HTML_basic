@@ -16,3 +16,9 @@ nav h1 {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+
+/* 擬似クラス */
+a:not(.logo):hover {
+	color: #646cff;
+	text-decoration: underline;
+}
