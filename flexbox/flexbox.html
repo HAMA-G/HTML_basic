@@ -21,11 +21,50 @@
 				/* flex-wrap: wrap-reverse; */
 				/* ショートハンドプロパティ */
 				flex-flow: row wrap;
+				/* 左上始まり（デフォルト） */
+				/* justify-content: flex-start; */
+				/* 上中央寄せ */
+				/* justify-content: center; */
+				/* 右上始まり */
+				/* justify-content: flex-end; */
+				/* 左右均等（要素間のみ） */
+				/* justify-content: space-between; */
+				/* 左右均等（要素間と先頭、接尾は要素間の半分の余白 */
+				/* justify-content: space-around; */
+				/* 左右均等（要素間と先頭・接尾は要素間と同じ幅 */
+				justify-content: space-around;
+				/* align-items: flex-start; */
+				/* 要素の縦幅が伸びた時に揃える */
+				/* align-items: stretch; */
+				/* 下を揃える */
+				/* align-items: flex-end; */
+				/* 上下中央揃え */
+				align-items: center;
+				/* ブラウザの高さに合わせる */
+				height:100vh;
+				/* 左上から並べる */
+				/* align-content: flex-start; */
+				/* 右上から並べる */
+				/* align-content: flex-end; */
+				/* 高さの中央寄せ */
+				/* align-content:center; */
+				/* 高さの中央揃え（デフォルト） */
+				/* align-content: stretch; */
+				/* 要素間の均等割付け */
+				/* align-content: space-between; */
+				/* 要素間の半分の余白を接頭と接尾に用いる */
+				/* align-content: space-around; */
+				/* 要素間の長さと同じ余白を接頭と接尾に用いる */
+				align-content: space-evenly;
 			}
 
 			.box {
 				background-color: #36bbe7;
 				padding: 20px;
+			}
+
+			.box1 {
+				height: 300px;
 			}
 		</style>
 	</head>
