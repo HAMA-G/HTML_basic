@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CSS Grid</title>
+
+		<style>
+			.container {
+				display: grid;
+				/* 列の設定：1列目200px、2列目200pxの列を作成するという意味 */
+				grid-template-columns: 200px 200px;
+				/* 行の設定：1列目100px、2行目300pxの列を作成する */
+				grid-template-rows: 100px 300px;
+				/* 指定のない高さを200pxとするcolumnもある */
+				grid-auto-rows: 200px;
+			}
+			.box{
+				background-color: #eee;
+				border:1px solid #333;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box box1">box1</div>
+			<div class="box box2">box2</div>
+			<div class="box box3">box3</div>
+			<div class="box box4">box4</div>
+			<div class="box box5">box5</div>
+		</div>
+	</body>
+</html>
