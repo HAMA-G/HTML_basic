@@ -8,8 +8,8 @@
 		<style>
 			.container {
 				display: grid;
-				/* repeat(a, b)：aは何回作るか、bはどのくらいの大きさか */
-				grid-template-columns: repeat(3, 300px);
+				/* 幅設定　1列目：200px、2列目：残りの幅を3分割したうちの2つ分、3列目：残りの幅を3分割したうちの1つ分 */
+				grid-template-columns: 200px 2fr 1fr;
 				grid-template-rows: 100px 300px;
 				grid-auto-rows: 200px;
 			}
