@@ -8,11 +8,9 @@
 		<style>
 			.container {
 				display: grid;
-				/* 列の設定：1列目200px、2列目200pxの列を作成するという意味 */
-				grid-template-columns: 200px 200px;
-				/* 行の設定：1列目100px、2行目300pxの列を作成する */
+				/* repeat(a, b)：aは何回作るか、bはどのくらいの大きさか */
+				grid-template-columns: repeat(3, 300px);
 				grid-template-rows: 100px 300px;
-				/* 指定のない高さを200pxとするcolumnもある */
 				grid-auto-rows: 200px;
 			}
 			.box{
