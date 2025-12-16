@@ -18,3 +18,7 @@ https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/gradient/radial-g
 
 conic-gradient ※グラフィックの知識が必要となる
 https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/gradient/conic-gradient
+
+transform
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Properties/transform
+よく使うもの：rotate,scale,translateあたりになる 
