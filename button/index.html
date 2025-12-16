@@ -12,20 +12,21 @@
 
 			.btn {
 				background: linear-gradient(
-					/* 45度の角度で色が変わる */
 					45deg,
-					/* 始まりの色 */
 					#6a11cb,
-					/* 終わりの色 */
 					#2575fc
 				);
 				padding: 15px 30px;
 				color: #fff;
 				font-size: 16px;
 				border-radius: 8px;
-				/* border-radius: 50%; */
-				/* box-shadow: x軸 y軸 ぼかし 色 の順に指定できる  */
 				box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+				/* transition: プロパティ名(全ての場合はall、複数指定はカンマ区切り) どのくらいの時間をかけるか; */
+				transition: transform .2s;
+			}
+
+			.btn:hover {
+				transform: scale(1.05);
 			}
 		</style>
 	</head>
