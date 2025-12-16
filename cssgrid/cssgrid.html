@@ -8,10 +8,26 @@
 		<style>
 			.container {
 				display: grid;
+				/* vh：viewport hieghterとはブラウザで表示される高さを表す100vhはブラウザのウインドウ全体に表示させるという意味 */
+				height: 100vh;
 				/* 幅設定　1列目：200px、2列目：残りの幅を3分割したうちの2つ分、3列目：残りの幅を3分割したうちの1つ分 */
-				grid-template-columns: 200px 2fr 1fr;
+				grid-template-columns: 200px 200px;
 				grid-template-rows: minmax(100px,auto) 200px;
+				/* コンテンツ全体が中央に揃える */
+				justify-content: center;
+				/* 間に余白を作る */
+				/* justify-content: space-between; */
+				/* 真ん中の余白の半分が余白となる */
+				/* justify-content: space-around; */
+				/* 間の余白と同じだけ両橋に余白を作る */
+				/* justify-content: space-evenly; */
+				align-content: center;
+				/* justify-items：横の位置調整、デフォルトはstretch */
+				justify-items: center;
+				/* align-items：縦方向の位置、デフォルトはstretch */
+				align-items: center;
 			}
+
 			.box{
 				background-color: #eee;
 				border:1px solid #333;
