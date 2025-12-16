@@ -59,14 +59,22 @@
 						height: 100vh;
 					}
 
+					.box1 {
+						display: grid;
+						grid-template-columns: subgrid;
+					}
+
 		</style>
 	</head>
 	<body>
 		<div class="container">
-			<div class="box box1">box1</div>
-			<div class="box box2">box2</div>
-			<div class="box box3">box3</div>
-			<div class="box box4">box4</div>
+			<div class="box box1">
+				<div class="box box1-1">box1-1</div>
+				<div class="box box1-2">box1-2</div>
+			</div>
+			<div class="box box2">main</div>
+			<div class="box box3">sidebar</div>
+			<div class="box box4">footer</div>
 		</div>
 	</body>
 </html>
