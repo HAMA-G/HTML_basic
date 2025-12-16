@@ -12,3 +12,9 @@ https://nicolas-cusan.github.io/destyle.css/
 
 ress
 https://github.com/filipelinhares/ress
+
+radial-gradient ※グラフィックの知識が必要となる
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/gradient/radial-gradient
+
+conic-gradient ※グラフィックの知識が必要となる
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/gradient/conic-gradient
