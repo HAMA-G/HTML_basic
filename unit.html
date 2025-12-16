@@ -10,6 +10,16 @@
 				font-size: 12px;
 			}
 
+			article {
+				font-size: 3em;
+			}
+
+			h1 {
+				/* articleタグのフォントサイズの1.5倍になるため、12px*3em*1.5emの計算となり複雑になる */
+				/* font-size: 1.5em; */
+				font-size: 1.5em;
+			}
+
 			.box {
 				background-color: #333;
 				width: 50%;
@@ -22,16 +32,15 @@
 				border: 1px solid #333;
 			}
 
-			.h1 {
-				font-size: 1.5em;
-			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="box">box</div>
 		</div>
-		<h1>見出し</h1>
-		<p>本文です</p>
+		<article>
+			<h1>見出し</h1>
+			<p>本文です</p>
+		</article>
 	</body>
 </html>
