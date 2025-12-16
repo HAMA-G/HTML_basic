@@ -11,32 +11,39 @@
 			}
 
 			article {
-				font-size: 3em;
+				font-size: 1em;
+				/* 左から右に読む */
+				direction: ltr;
+				/* 右から左に読む */
+				/* direction: rtl; */
+				/* writing-modeのデフォルト */
+				writing-mode: horizontal-tb;
+				/* writing-mode: vertical-rl; */
+				/* writing-mode: sideways-rl; */
 			}
 
 			h1 {
-				/* articleタグのフォントサイズの1.5倍になるため、12px*3em*1.5emの計算となり複雑になる */
-				/* font-size: 1.5em; */
 				font-size: 1.5em;
+				/* 文章の始まりに記載する */
+				border-inline-start: 5px solid #333;
+				padding-inline-start: 10px;
+
+				border-block-start: 5px solid #333;
+				padding-block-start: 10px;
 			}
 
 			.box {
 				background-color: #333;
-				width: 50%;
-				height: 100px;
 			}
 
 			.container {
-				/* width: 600px; */
-				width: 200px;
-				border: 1px solid #333;
 			}
 
 		</style>
 	</head>
 	<body>
 		<div class="container">
-			<div class="box">box</div>
+			<div class="box"></div>
 		</div>
 		<article>
 			<h1>見出し</h1>
