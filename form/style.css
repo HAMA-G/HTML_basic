@@ -68,13 +68,15 @@ button:hover {
 	color: #fff;
 }
 
-.radio-group {
+.radio-group,
+.checkbox-group {
 	display: flex;
 	gap: 15px;
 	margin: .5rem;
 }
 
-.radio-group label {
+.radio-group label,
+.checkbox-group label {
 	display: flex;
 	align-items: ;
 	font-weight: normal;
