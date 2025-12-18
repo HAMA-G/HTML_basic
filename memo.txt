@@ -22,3 +22,6 @@ https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Values/gradient/conic-gr
 transform
 https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Properties/transform
 よく使うもの：rotate,scale,translateあたりになる 
+
+inputタグ
+https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/input
