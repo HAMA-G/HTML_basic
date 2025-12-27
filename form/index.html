@@ -29,7 +29,7 @@
 								<span>女性</span>
 							</label>
 							<label>
-								<input type="radio" name="gender" value="">
+								<input type="radio" name="gender" value="" checked>
 								<span>その他・回答しない</span>
 							</label>
 						</div>
@@ -38,7 +38,7 @@
 						<label>興味のある分野</label>
 						<div class="checkbox-group">
 							<label>
-								<input type="checkbox" name="interest[]" value="スポーツ">
+								<input type="checkbox" name="interest[]" value="スポーツ" checked>
 								<span>スポーツ</span>
 							</label>
 							<label>
@@ -54,6 +54,8 @@
 					<div class="form-group">
 						<label for="membership">会員種別<span class="required">必須</span></label>
 						<select id="membership" name="membership" required>
+						<!-- sizeやmultipleは使いにくいためほとんど使われていない -->
+						<!-- <select id="membership" name="membership" size="5" multiple required></select> -->
 							<option value="">選択してください</option>
 							<option value="regular">一般会員</option>
 							<option value="student">学生会員</option>
