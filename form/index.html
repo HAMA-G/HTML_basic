@@ -54,8 +54,6 @@
 					<div class="form-group">
 						<label for="membership">会員種別<span class="required">必須</span></label>
 						<select id="membership" name="membership" required>
-						<!-- sizeやmultipleは使いにくいためほとんど使われていない -->
-						<!-- <select id="membership" name="membership" size="5" multiple required></select> -->
 							<option value="">選択してください</option>
 							<option value="regular">一般会員</option>
 							<option value="student">学生会員</option>
@@ -64,7 +62,9 @@
 					</div>
 					<div class="form-group">
 						<label for="message">お問い合わせ内容<span class="required">必須</span></label>
-						<textarea id="message" name="message" rows="4" required></textarea>
+						<!-- rows:縦幅、colsで横幅の調整が可能だが、cssで横幅は調整する方が統一感が出る -->
+						<!-- 空要素ではないため、開始タグと閉じタグの間に文字を入れてしまうとテキストエリア内に入力されてしまう -->
+						<textarea id="message" name="message" rows="10" required></textarea>
 					</div>
 
 					<button type="submit">送信</button>
