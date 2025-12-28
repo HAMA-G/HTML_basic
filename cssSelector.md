@@ -116,3 +116,57 @@ JavaScriptで使用されることが多い
 <p>これは対象です</p>
 <p>これも対象です</p>
 ```
+## 属性を使ったセレクタ
+classやidなどの特定の属性だけでなく、さまざな属性の値を使ってようそを指定できる
+## 属性の有無
+「\[\]」で要素の名前を囲むことで、その属性が指定された要素を指定する
+
+```HTML
+<style>
+	[required] {
+		background-color: red;
+	  }
+</sytle>
+<input type="text" name="name" required>
+```
+## 値の一致
+属性の値が指定されたもののみを指定できる
+「=」値が完全一致する場合のみ
+```HTML
+<style>
+	[type="text"] {
+		background-color: red;
+	  }
+</sytle>
+<input type="text" name="name" required>
+```
+「~=」とすると、その値が含まれている複数指定されている場合でも指定可能
+```HTML
+<style>
+	[class~="button"] {
+		color: red;
+	  }
+</sytle>
+<input class="button" name="name" required>
+```
+前方一致、後方一致、部分一致の指定
+あまり使われていない印象
+```HTML
+<style>
+	/*前方一致*/
+	[lang^="-en"] {
+		color: red;
+	  }
+
+	/*後方一致*/
+	[lang$="-en"] {
+		color: red;
+	  }
+
+	/*部分一致*/
+	[lang*="en"] {
+		color: red;
+	  }
+</sytle>
+<input class="button" name="name" required>
+```
