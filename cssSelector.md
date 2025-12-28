@@ -170,3 +170,64 @@ classやidなどの特定の属性だけでなく、さまざな属性の値を�
 </sytle>
 <input class="button" name="name" required>
 ```
+
+## 擬似クラス
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Selectors/Pseudo-classes
+### マウスオーバー
+マウスカーソルが重なった時のみ適用される
+スマホの時には反応しないので注意！
+マウスオーバーの時に色が変わるなどで使用する程度にとどめ、
+コメントが表示されるといった細かな設定には使用しない
+```CSS
+a:hover {
+	color: red;
+}
+```
+### チェック状態
+チェックボックスなどでチェックされた時に適用される
+```CSS
+input:checked {
+	color: red;
+}
+```
+### フォーカスが当たっている時
+フォーカスが当たっているときに適用される
+```CSS
+input:focus {
+	color: red;
+}
+```
+### 空の場合
+子要素に何もない時に適用される
+```HTML
+<style>
+	p:hover {
+		color: red;
+	}
+</style>
+
+<p></p>
+```
+### 順番を指定する
+セレクタの中で順番などを使って細かく指定することができる
+```CSS
+/* 最初の要素 */
+li:first-child {
+	color: red;
+}
+
+/* 最後の要素 */
+li:last-child {
+	color: red;
+}
+
+ /* 2番目の要素 */
+li:nth-child(2) {
+	color: red;
+}
+
+/* 奇数の要素 */
+li:nth-child(odd) {
+	color: red;
+}
+```
