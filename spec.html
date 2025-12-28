@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CSSの詳細度</title>
+		<style>
+			/* CSS詳細度：div.boxとすると赤、.boxのみだと灰色になる */
+			/* div.box {
+				background-color: red;
+			} */
+
+			.box {
+				width: 100px;
+				height: 100px;
+				/* background-color: #ccc; */
+			}
+
+			/* #box1 {
+				background-color: #ff0;
+			} */
+
+			div[class="box box-primary"] {
+				background-color: #0ff !important;
+			}
+
+			.box.box-primary {
+				background-color: #00f;
+			}
+
+			.box:hover {
+				background: #ff0;
+			}
+
+			div {
+				background-color: #0f0;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div id="box1" class="box" style="background-color: #000;"></div> -->
+		<div id="box1" class="box box-primary"></div>
+	</body>
+</html>
