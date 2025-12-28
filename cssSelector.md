@@ -231,3 +231,31 @@ li:nth-child(odd) {
 	color: red;
 }
 ```
+## 擬似要素
+https://developer.mozilla.org/ja/docs/Web/CSS/Reference/Selectors/Pseudo-elements
+要素っぽく見せることができるもの
+### 要素の前後
+contentプロパティはCSSを使って文字などを追加することができる
+```CSS
+ /* 要素の前にコンテンツを追加 */
+p::befire {
+	content: "★";
+}
+
+ /* 要素の後にコンテンツを追加 */
+p::after {
+	content: "★";
+}
+```
+### 最初の文字や行
+```CSS
+ /* 最初の1文字を装飾 */
+p::first-letter {
+	font-size:2em;
+}
+
+ /* 最初の1行を装飾 */
+p::first-line {
+	color: red;
+}
+```
